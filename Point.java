@@ -30,8 +30,7 @@ public class Point {
         Point p = new Point();
         p.y = x;
         {
-            float rho = 3;
-            p.x = y+(int)rho;
+            p.x = y;
         }
         return p;
     }
