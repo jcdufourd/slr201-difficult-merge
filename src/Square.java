@@ -5,10 +5,6 @@ public class Square extends Point {
         super(x, y);
         this.width = width;
     }
-    public Square(float rho, float theta, int width) {
-        super(rho, theta);
-        this.width = width;
-    }
 
     @Override
     public void print() {
